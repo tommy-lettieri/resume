@@ -1,0 +1,20 @@
+{
+    "logoWidth": 100,
+    "dataArray": [
+      {
+        "name": "Skills",
+        "bullets": [
+            "**Extensive Knowledge in Languages:** TypeScript and Javascript with both browser and NodeJS, Java, Swift, C#",
+            "**Knowledge** of C++ and Visual Basic",
+            "**Extensive Knowledge using Frameworks:** Express, Sequelize, React, Joi, AJV (JSON Schema)",
+            "**Extensive Knowledge** with mobile platforms Android, IOS (UIKit) including some cross platform knowledge using React Native, Appcelerator, CrankUI",
+            "**Strong knowledge** using Frameworks: Fastify, Prisma",
+            "**Extensive Knowledge** in SQL (Mostly Postgres but also used Oracle, Microsoft)",
+            "**Knowledge** in NOSQL Databases (Mongo and Realm on mobile devices)",
+            "**Knowledge** of Automated Testing using frameworks like Mocha, Jest, Selenium, Cucumber, Super Test",
+            "Ability to utilize and adapt to new technologies, to learn independently"
+        ],
+        "logoURL": "https://image.flaticon.com/icons/png/512/69/69045.png"
+      }
+    ]
+}

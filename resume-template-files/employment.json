@@ -1,0 +1,42 @@
+{
+    "logoWidth": 100,
+    "employments": [
+        {
+            "name": "Rederly",
+            "startDate": "7/1/2020",
+            "endDate": "7/1/2021",
+            "logoURL": "https://media-exp1.licdn.com/dms/image/C4D0BAQFAG29Ta8ql6Q/company-logo_200_200/0/1578341875511?e=2159024400&v=beta&t=cbZPVw3KL3afGERl9n5EivcrhmrzAqDV-GN8cmEsbY0",
+            "website": "https://rederly.com/",
+            "bullets": [
+                "**Responsibilities:** Designed and built a platform that allowed professors to organize curriculum and use content from their current WeBWork server.",
+                "**Languages:** Typescript, Python",
+                "**Frameworks:** Express, React, Sequelize, Prisma, Fastify, Waitress",
+                "**Databases:** PostgreSQL"
+            ]
+        },
+        {
+            "name": "Intelligent Product Solutions",
+            "startDate": "5/1/2015",
+            "endDate": "7/1/2020",
+            "logoURL": "https://intelligentproduct.solutions/wp-content/uploads/logo_new_web2.png",
+            "website": "https://intelligentproduct.solutions/",
+            "bullets": [
+                "**Responsibilities:** Designed and built applications on a wide range of technologies. Set up servers on AWS or Azure to run built application or in one case to migrate Atlassians products to.",
+                "**Languages:** Javascript, Java, Swift, Objective C, C++, C",
+                "**Frameworks:** Express, React, Sequelize, Apache Tomcat",
+                "**Platforms:** Web, Android, IOS, Appcelerator, Crank",
+                "**Databases:** PostgreSQL, Microsoft SQL Server, Realm, Mongo, RethinkDB"
+            ]
+        },
+        {
+            "name": "St. Joseph's College",
+            "logoURL": "https://s3.amazonaws.com/libapps/accounts/11049/images/Coat_of_arms_2014.jpg",
+            "website": "https://www.sjcny.edu/",
+            "bullets": [
+                "**Volunteer Teacher's Assistant:** Helped student's learn Android, debug their code, and give them mock interviews.",
+                "**Code Camp Mobile Apps Counsellor (1 week):** Worked with kids to think about new mobile apps as well as build a small one of their own.",
+                "**Code Camp Mincraft Counsellor (1 week):** Helped kids with java and to create their own item in minecraft."
+            ]
+          }      
+    ]
+}
