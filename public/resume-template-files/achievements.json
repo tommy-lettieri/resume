@@ -1,0 +1,14 @@
+{
+    "logoWidth": 100,
+    "dataArray": [
+      {
+        "name": "Eagle Scout",
+        "bullets": [
+          "Worked through the ranks learning different skills.",
+          "Was senior patrol leader for 1 year.",
+          "### Eagle Project\nDid some work for the local parish resource center:\n1. Added solar light to the parking lot since the parking lot would get very dark at night during some night time meetings.\n2. Cleaned up garbage for the thrift shop.\n3. There was a clay area that could not group grass, so we added a wooden edge and filled in blue stone to make it look nicer.\n4. Removed a lilac tree"
+        ],
+        "logoURL": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Boy_Scouts_of_America_corporate_trademark.svg/1200px-Boy_Scouts_of_America_corporate_trademark.svg.png"
+      }
+    ]
+}

@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -10,6 +10,7 @@
     "@types/node": "^12.20.16",
     "@types/react": "^17.0.14",
     "@types/react-dom": "^17.0.9",
+    "@z87/resume-template": "https://github.com/tommy-lettieri/resume-template/releases/download/v0.0.0-1/z87-resume-template-0.0.0-1.tgz",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -39,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@z87/resume-template-cli": "https://github.com/tommy-lettieri/resume-template-cli/releases/download/v0.0.0-1/z87-resume-template-cli-0.0.0-1.tgz"
   }
 }
