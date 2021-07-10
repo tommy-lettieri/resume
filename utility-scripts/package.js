@@ -65,16 +65,24 @@ console.log(`Starting to package project into ${destFile}`);
 
     const archivePromises = [];
     if (PACKAGER_ARCHIVE_TAR !== 'false') {
+        const tarDest = `${distDirectory}/${destFile}.tgz`;
+        if (fs.existsSync(tarDest)) {
+            await fs.remove(tarDest);
+        }
         const tarPromise = createArchive('tar', {
             gzip: true
-        }, `${distDirectory}/${destFile}.tgz`, buildDir);
+        }, tarDest, buildDir);
         archivePromises.push(tarPromise);    
     } else {
         console.log('PACKAGER_ARCHIVE_TAR is set to false, skipping tar');
     }
 
     if (PACKAGER_ARCHIVE_ZIP !== 'false') {
-        const zipPromise = createArchive('zip', null, `${distDirectory}/${destFile}.zip`, buildDir);
+        const zipDest = `${distDirectory}/${destFile}.zip`;
+        if (fs.existsSync(zipDest)) {
+            await fs.remove(zipDest);
+        }
+        const zipPromise = createArchive('zip', null, zipDest, buildDir);
         archivePromises.push(zipPromise);    
     } else {
         console.log('PACKAGER_ARCHIVE_ZIP is set to false, skipping zip');
