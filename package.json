@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "0.0.0-5",
+  "version": "0.0.0-6",
   "private": true,
   "homepage": "https://tommy-lettieri.github.io/resume",
   "dependencies": {
