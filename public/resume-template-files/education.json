@@ -1,6 +1,6 @@
 {
   "logoWidth": 100,
-  "schools": [
+  "dataArray": [
     {
       "name": "St. Joseph's College",
       "gpa": 3.759,
@@ -12,7 +12,7 @@
       "website": "https://www.sjcny.edu/",
       "bullets": [
         "**Extra Curriculars:** Programming Team Captain, Vice President of ACM club, Upsilon Pi Epsilon International Computer Science Honor Society, Coder Dojo Sensei",
-        "\n| Relevant Coursework | | |\n| :-- | :-- | :-- |\n| Mobile Applications (Android) | Operating Systems | Visual Basic |\n| Advanced Java | Advanced C++ | Advanced Database Systems |\n| Advanced C++ and OpenGL | Computer Security | Multimedia Applications |\n| Calculus 1 through 4 | Computer Organization/Assembly | Computer Networking |\n| Probability and Statistics | Linear Algebra | Discrete Mathematics |\n      "
+        "\n| Relevant Coursework | | |\n| :-- | :-- | :-- |\n| Mobile Applications (Android) | Operating Systems | Visual Basic |\n| Advanced Java | Advanced C++ | Advanced Database Systems |\n| Advanced C++ and OpenGL | Computer Security | Multimedia Applications |\n| Calculus 1 through 4 | Computer Organization / Assembly | Computer Networking |\n| Probability and Statistics | Linear Algebra | Discrete Mathematics |\n      "
       ]
     }
   ]
