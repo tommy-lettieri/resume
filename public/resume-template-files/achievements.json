@@ -2,6 +2,16 @@
     "logoWidth": 100,
     "dataArray": [
       {
+        "name": "Certified Scrum Master",
+        "bullets": [
+          "Partook in a course about the agile process.",
+          "Passed an exam at the end of that course."
+        ],
+        "logoURL": "https://www.scrumalliance.org/ScrumRedesignDEVSite/media/ScrumAllianceMedia/Certification%20Badges/Official/SAI_BadgeSizes_DigitalBadging_CSM.png",
+        "website": "https://www.scrumalliance.org/",
+        "startDate": "2018-05-17",
+        "endDate": "2020-05-17"
+      }, {
         "name": "Eagle Scout",
         "bullets": [
           "Worked through the ranks learning different skills.",
