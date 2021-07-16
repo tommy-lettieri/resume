@@ -7,13 +7,13 @@
           "**Extensive Knowledge:** TypeScript and Javascript with both browser and NodeJS, Java, Swift, C#",
           "**Knowledge:** C++ and Visual Basic"
         ],
-        "logoURL": "https://image.flaticon.com/icons/png/512/69/69045.png"
+        "logoURL": "/code.png"
       },
       {
         "name": "Databases",
         "bullets": [
           "**Extensive Knowledge** in SQL (Mostly Postgres but also used Oracle, Microsoft)",
-          "**Knowledge** in NOSQL Databases (Mongo and Realm on mobile devices)"
+          "**Knowledge** in NoSQL Databases (Mongo and Realm on mobile devices)"
         ],
         "logoURL": "/db.png"
       },
@@ -23,7 +23,7 @@
           "**Extensive Knowledge:** Express, Sequelize, React, Joi, AJV (JSON Schema)",
           "**Strong Knowledge:** Fastify, Prisma"
         ],
-        "logoURL": "https://image.flaticon.com/icons/png/512/69/69045.png"
+        "logoURL": "/frameworks.png"
       },
       {
         "name": "Mobile Platforms",
@@ -32,7 +32,7 @@
           "IOS (UIKit)",
           "Some cross platform knowledge using React Native, Appcelerator, CrankUI"
         ],
-        "logoURL": "https://image.flaticon.com/icons/png/512/69/69045.png"
+        "logoURL": "/mobile.png"
       },
       {
         "name": "Misc",
@@ -40,7 +40,7 @@
             "**Knowledge** of Automated Testing using frameworks like Mocha, Jest, Selenium, Cucumber, Super Test",
             "Ability to utilize and adapt to new technologies, to learn independently"
         ],
-        "logoURL": "https://image.flaticon.com/icons/png/512/69/69045.png"
+        "logoURL": "/misc.png"
       }
     ]
 }
