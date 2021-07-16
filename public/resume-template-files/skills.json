@@ -13,7 +13,7 @@
         "name": "Databases",
         "bullets": [
           "**Extensive Knowledge** in SQL (Mostly Postgres but also used Oracle, Microsoft)",
-          "**Knowledge** in NOSQL Databases (Mongo and Realm on mobile devices)"
+          "**Knowledge** in NoSQL Databases (Mongo and Realm on mobile devices)"
         ],
         "logoURL": "/db.png"
       },

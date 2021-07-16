@@ -27,7 +27,7 @@
       "name": "Resume Template CLI (lib)",
       "bullets": [
         "### Problems\n1. I wanted a way for people to initialize certain settings when using the resume-template-library\n2. I wanted people to be able to validate that their JSON files were correct \n3. I wanted the automatic resume generation github action to be created as well",
-        "### Skill Acquired\n1. Leanred how to expose an npm module in the bin"
+        "### Skill Acquired\n1. Learned how to expose an npm module in the bin"
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume-template-cli",
@@ -59,7 +59,7 @@
     {
       "name": "Stay Awake",
       "bullets": [
-        "### Problems\n1. When playing Fibbage on Jackbox games my phone would either go inactive or I would forget to change the display timeout afterwards and my battery would die quickly.\n2. When running on the treadmil and watching a stopwatch my phone screen would turn off.",
+        "### Problems\n1. When playing Fibbage on Jackbox games my phone would either go inactive or I would forget to change the display timeout afterwards and my battery would die quickly.\n2. When running on the treadmill and watching a stopwatch my phone screen would turn off.",
         "### Skills Acquired\n1. Learned to build a widget for android."
       ],
       "startDate": "7/1/2017",
