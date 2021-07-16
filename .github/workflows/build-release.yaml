@@ -71,6 +71,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           id: ${{ steps.create_release.outputs.id }}
+      - name: Git Config
+        run: git config --global user.name "${{ secrets.COMMITTER_NAME }}" && git config --global user.name "${{ secrets.COMITTER_EMAIL }}"
       - name: Deploy
         run: npm run deploy
 
