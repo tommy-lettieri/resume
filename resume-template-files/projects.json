@@ -5,8 +5,8 @@
     {
       "name": "Resume",
       "bullets": [
-        "### Problems\n1. I wanted to be able to make a personal website with all of the logic in a component library.\n2. I want that website to also generate a resume.\n3. Lastly I want that website to be deployed to github pages.",
-        "### Skills Acquired\n1. Github pages deployment with react\n2. Worked with modules that I created"
+        "### Goals\n1. Build a personal website consuming the `resume-template` component library I built",
+        "### Skills Acquired\n1. Automatic `GitHub pages` released on pushing tags.\n2. Component library development experience"
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume",
@@ -15,31 +15,29 @@
     {
       "name": "Resume Template",
       "bullets": [
-        "### Problems\n1. I wanted a reusable component for generating personal website and resume.\n2. I wanted it to be able to be used without forking the repository (but instead just modifying the data)",
-        "### Issues Overcome\n1. The rollup typescript plugin did not want to export DTS files which made it difficult to consume the module in typescript\n2. ES Module Interop was not being respected initially",
-        "### Skill Acquired\n1. Learned how to build a react component library\n2. Learned to use rollup to package up said library\n3. Learned how to use storyboard to build and view components in isolation\n4. Furthered my understanding to use React Contexts"
+        "### Goals\n1. Instead of giving a template to fork I wanted to build a set of components that people could use as they liked.\n2. Furthermore for simplicity I wanted components that would represent the entire website to make it easier to get something up and running.\n3. Automatic resume pdf generation from a subset of the data (in progress)",
+        "### Skills Acquired\n1. Learned how to build a React component library\n2. Learned to use rollup to package up said library (although currently having some issues with a dependency)\n3. Learned how to use storyboard to build and view components in isolation\n4. Furthered my understanding to use React Contexts"
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume",
-      "logoURL": "/react-lib.png"
+      "logoURL": "/images/react-lib.png"
     },
     {
       "name": "Resume Template CLI (lib)",
       "bullets": [
-        "### Problems\n1. I wanted a way for people to initialize certain settings when using the resume-template-library\n2. I wanted people to be able to validate that their JSON files were correct \n3. I wanted the automatic resume generation github action to be created as well",
-        "### Skill Acquired\n1. Learned how to expose an npm module in the bin"
+        "### Goals\n1. I wanted a way for people to initialize certain settings when using the `resume-template-library` (default json files, github actions, styles, etc.)\n2. I wanted people to be able to validate that their JSON files were correct",
+        "### Skill Acquired\n1. Learned how to expose an npm module as a cli"
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume-template-cli",
-      "logoURL": "/node-lib.png"
+      "logoURL": "/images/node-lib.png"
     },
     {
       "name": "Mass Texter",
       "bullets": [
-        "### Problems\n1. My phone provider capped the number of people I could text to 30 at one time (regardless of mass or group texts.)\n2. Sending a group text would make all the phone numbers visible, I didn't want to give out phone numbers without consent.\n3. Sending a mass text would go out on a thread with everyone but responses would come back individually so context was sometimes unclear.",
-        "### Solution\n1. Wrote an android app that would loop through a group of contacts and send out the texts individually.",
-        "### Outcome\n1. All of the problems listed above were solved.\n2. People were more responsive (due to the fact that they thought I was texting them personally).",
-        "### Ideas that were not Implemented\n1. Templating: Having the ability to replace things like `{NAME}` with the contact name.",
+        "### Goals\n1. My phone provider capped the number of people I could text to 10 at one time (regardless of mass or group texts.), however I wanted to text 30 people at a time.\n2. Sending a mass text would go out on a thread with everyone but responses would come back individually so context was sometimes unclear. I wanted the interaction to be more clear.",
+        "### Outcome\n1. People were more responsive (due to the fact that they thought I was texting them personally).",
+        "### Unimplemented ideas\n1. Templating: Having the ability to replace things like `{NAME}` with the contact name.",
         "### Skills Acquired\n1. Query contacts on android\n2. Send text messages from android"
       ],
       "startDate": "7/1/2017",
@@ -49,8 +47,8 @@
     {
       "name": "Interval Clock",
       "bullets": [
-        "### Problems\n1. I wanted a timer that would go off consistent at a given interval\n2. This was intended for something like timing exercises (for instance to keep break times short you could give yourself the remainder of an interval and maybe an additional without disrupted and going to you phone and getting distracted.)",
-        "### Skills Acquired\n1. Worked with Android's canvas APIs"
+        "### Goals\n1. I wanted a timer that would go off consistent at a given interval\n2. This was intended for something like timing exercises (for instance to keep break times short you could give yourself the remainder of an interval and maybe an additional without disrupted and going to you phone and getting distracted.)",
+        "### Skills Acquired\n1. Programmatically worked with Android's canvas APIs"
       ],
       "startDate": "7/1/2017",
       "website": "https://github.com/tommy-lettieri/IntervalClock",
@@ -59,7 +57,7 @@
     {
       "name": "Stay Awake",
       "bullets": [
-        "### Problems\n1. When playing Fibbage on Jackbox games my phone would either go inactive or I would forget to change the display timeout afterwards and my battery would die quickly.\n2. When running on the treadmill and watching a stopwatch my phone screen would turn off.",
+        "### Goals\n1. Build a widget to make it easier to turn screen timeout off. This is useful when playing games like Fibbage on Jackbox where there is a wait time while the tv goes through the prompts. This is also useful if you are exercising and keeping an eye on a stopwatch.",
         "### Skills Acquired\n1. Learned to build a widget for android."
       ],
       "startDate": "7/1/2017",

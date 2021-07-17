@@ -5,9 +5,9 @@
         "name": "Languages",
         "bullets": [
           "**Extensive Knowledge:** TypeScript and Javascript with both browser and NodeJS, Java, Swift, C#",
-          "**Knowledge:** C++ and Visual Basic"
+          "**Knowledge:** Python, C++ and Visual Basic"
         ],
-        "logoURL": "/code.png"
+        "logoURL": "/images/code.png"
       },
       {
         "name": "Databases",
@@ -15,7 +15,7 @@
           "**Extensive Knowledge** in SQL (Mostly Postgres but also used Oracle, Microsoft)",
           "**Knowledge** in NoSQL Databases (Mongo and Realm on mobile devices)"
         ],
-        "logoURL": "/db.png"
+        "logoURL": "/images/db.png"
       },
       {
         "name": "Frameworks",
@@ -23,7 +23,7 @@
           "**Extensive Knowledge:** Express, Sequelize, React, Joi, AJV (JSON Schema)",
           "**Strong Knowledge:** Fastify, Prisma"
         ],
-        "logoURL": "/frameworks.png"
+        "logoURL": "/images/frameworks.png"
       },
       {
         "name": "Mobile Platforms",
@@ -32,7 +32,7 @@
           "IOS (UIKit)",
           "Some cross platform knowledge using React Native, Appcelerator, CrankUI"
         ],
-        "logoURL": "/mobile.png"
+        "logoURL": "/images/mobile.png"
       },
       {
         "name": "Misc",
@@ -40,7 +40,7 @@
             "**Knowledge** of Automated Testing using frameworks like Mocha, Jest, Selenium, Cucumber, Super Test",
             "Ability to utilize and adapt to new technologies, to learn independently"
         ],
-        "logoURL": "/misc.png"
+        "logoURL": "/images/misc.png"
       }
     ]
 }

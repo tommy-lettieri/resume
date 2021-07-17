@@ -1,5 +1,14 @@
 {
     "name": "Thomas Lettieri",
     "missionStatement": "I strive to build modular code to effectively streamline software development. Giving back to the community wherever possible.",
-    "title": "Software Engineer"
+    "title": "Software Engineer",
+    "links": [{
+        "name": "GitHub",
+        "logoURL": "/images/share-icons/GitHub-Mark-32px.png",
+        "url": "https://github.com/tommy-lettieri"
+    }, {
+        "name": "LinkedIn",
+        "logoURL": "/images/share-icons/LI-In-Bug.png",
+        "url": "https://www.linkedin.com/in/tom-lettieri/"
+    }]
 }
