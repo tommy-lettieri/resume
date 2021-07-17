@@ -20,7 +20,7 @@
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume",
-      "logoURL": "/react-lib.png"
+      "logoURL": "/images/react-lib.png"
     },
     {
       "name": "Resume Template CLI (lib)",
@@ -30,7 +30,7 @@
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume-template-cli",
-      "logoURL": "/node-lib.png"
+      "logoURL": "/images/node-lib.png"
     },
     {
       "name": "Mass Texter",
