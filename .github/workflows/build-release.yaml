@@ -35,6 +35,7 @@ jobs:
         env:
           PACKAGER_DEST_FILE: ${{ steps.get_file_name.outputs.result }}
           CI: false # TODO Linting errors cause the build to fail when CI is true (default)
+          REACT_APP_GA_TRACKING_CODE: ${{ secrets.REACT_APP_GA_TRACKING_CODE }}
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
