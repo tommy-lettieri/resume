@@ -1,7 +1,8 @@
 {
     "name": "Thomas Lettieri",
-    "missionStatement": "I strive to build modular code to effectively streamline software development. Giving back to the community wherever possible.",
     "title": "Software Engineer",
+    "professionalSummary": "6 years experience using a wide variety of technology with an emphasis on full stack development.",
+    "missionStatement": "I strive to build modular code to effectively streamline software development. Giving back to the community wherever possible.",
     "links": [{
         "name": "GitHub",
         "logoURL": "/images/share-icons/GitHub-Mark-32px.png",

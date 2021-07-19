@@ -9,7 +9,7 @@
             "logoURL": "https://media-exp1.licdn.com/dms/image/C4D0BAQFAG29Ta8ql6Q/company-logo_200_200/0/1578341875511?e=2159024400&v=beta&t=cbZPVw3KL3afGERl9n5EivcrhmrzAqDV-GN8cmEsbY0",
             "website": "https://rederly.com/",
             "bullets": [
-                "**Responsibilities:** Lead a team and we designed and built a platform that allowed professors to organize curriculum and use content from their current WeBWork servers.",
+                "**Responsibilities:** Led a team and we designed and built a platform that allowed professors to organize curriculum and use content from their current WeBWork servers.",
                 "**Design:** Application was broken up into an array of dockerized microservices. Some of those microservices were run on AWS ECS and had redundancy and auto scaling. This design increased reliability as well as making it easier to test and do partial deployments. It also allowed for experimentation into other frameworks due to the lower responsibility of each service.",
                 "**Languages:** Mostly Typescript with some Python",
                 "**Frameworks:** Express, React, Sequelize, Prisma, Fastify, Waitress",
