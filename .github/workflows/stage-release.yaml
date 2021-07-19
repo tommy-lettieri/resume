@@ -31,7 +31,7 @@ jobs:
           PUBLIC_URL: /resume-stage
       - name: Deploy with gh-pages
         run: |
-          git remote add github_upstream https://git:${GITHUB_TOKEN}@github.com/resume-stage.git
+          git remote add github_upstream https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}-stage.git
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>" -o "github_upstream"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
