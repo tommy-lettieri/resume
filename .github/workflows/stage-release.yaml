@@ -1,0 +1,37 @@
+on:
+  push:
+    branches:
+      - stage
+
+name: Stage Release
+
+jobs:
+  build:
+    name: Stage Release
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.15.3]
+    steps:
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Checkout code
+        uses: actions/checkout@v1
+      - name: NPM install
+        uses: bahmutov/npm-install@v1
+      - name: Build and package
+        run: npm run build:package
+        env:
+          PACKAGER_ARCHIVE_TAR: false
+          PACKAGER_ARCHIVE_ZIP: false
+          CI: false # TODO Linting errors cause the build to fail when CI is true (default)
+          REACT_APP_GA_TRACKING_CODE: ${{ secrets.REACT_APP_GA_TRACKING_CODE }}
+          PUBLIC_URL: /resume-stage
+      - name: Deploy with gh-pages
+        run: |
+          git remote add github_upstream https://git:${GITHUB_TOKEN}@github.com/resume-stage.git
+          npm run deploy -- -u "github-actions-bot <support+actions@github.com>" -o "github_upstream"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
