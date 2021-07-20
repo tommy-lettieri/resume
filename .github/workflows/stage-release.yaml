@@ -21,6 +21,9 @@ jobs:
         uses: actions/checkout@v1
       - name: NPM install
         uses: bahmutov/npm-install@v1
+      - name: Git Version
+        id: git_describe
+        run: echo ::set-output name=result::$(git describe --abbrev=4)
       - name: Build and package
         run: npm run build:package
         env:
@@ -28,6 +31,7 @@ jobs:
           PACKAGER_ARCHIVE_ZIP: false
           CI: false # TODO Linting errors cause the build to fail when CI is true (default)
           REACT_APP_GA_TRACKING_CODE: ${{ secrets.REACT_APP_GA_TRACKING_CODE }}
+          REACT_APP_RESUME_VERSION: ${{ steps.git_describe.outputs.result }}
           PUBLIC_URL: /resume-stage
       - name: Deploy with gh-pages
         run: |

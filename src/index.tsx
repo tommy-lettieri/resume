@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga';
+import packageJSON from '../package.json';
+
+window.RESUME_VERSION = process.env.REACT_APP_RESUME_VERSION ?? packageJSON.version;
 
 const { REACT_APP_GA_TRACKING_CODE } = process.env;
 if (REACT_APP_GA_TRACKING_CODE) {
