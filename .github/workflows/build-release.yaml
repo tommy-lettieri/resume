@@ -1,8 +1,10 @@
+# Summary:
+# This github action is used to:
+# 1. Make sure the application builds
+# 2. Take the build from the previous step and upload to `GitHub Releases` under the current tage
+# 3. Take that same build and deploy it to `GitHub Pages`
+
 # https://github.com/actions/upload-release-asset
-
-# This is the command I used to test on a fork of the repo
-# git add . && git commit -m a && npm version patch && git push && git push --tags
-
 on:
   push:
     # Sequence of patterns matched against refs/tags

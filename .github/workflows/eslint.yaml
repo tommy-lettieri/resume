@@ -1,3 +1,6 @@
+# Summary
+# Bot to leave comments of broken linting rules
+
 name: reviewdog
 on: [pull_request]
 jobs:

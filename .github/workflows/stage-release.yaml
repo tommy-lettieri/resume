@@ -1,3 +1,12 @@
+# Summary:
+# This github action is meant to give me a place to work on my website and share the output without modifying the website I am sending out
+
+# Prerequisites:
+# 1. Create a GitHub Token here: https://github.com/settings/tokens
+# 2. Grant that token access to: public_repo
+# 3. Copy that token into a repository secret called `MY_GITHUB_TOKEN`
+# 4. Make a repository with the same name as your website but add `-stage` to the end of it
+
 on:
   push:
     branches:
