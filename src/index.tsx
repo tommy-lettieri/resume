@@ -6,12 +6,17 @@ import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga';
 import packageJSON from '../package.json';
 
+declare global {
+    interface Window {
+        REACT_APP_GA_TRACKING_CODE: string;
+    }
+}
+
 window.RESUME_VERSION = process.env.REACT_APP_RESUME_VERSION ?? packageJSON.version;
 
 const { REACT_APP_GA_TRACKING_CODE } = process.env;
 if (REACT_APP_GA_TRACKING_CODE) {
-    // Just have this for debugging, will probably remove
-    (window as any).REACT_APP_GA_TRACKING_CODE = REACT_APP_GA_TRACKING_CODE;
+    window.REACT_APP_GA_TRACKING_CODE = REACT_APP_GA_TRACKING_CODE;
     ReactGA.initialize(REACT_APP_GA_TRACKING_CODE);
     ReactGA.pageview(window.location.pathname + window.location.search);
 }
