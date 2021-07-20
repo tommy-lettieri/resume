@@ -1,3 +1,15 @@
+# resume
+This is a consumer of the resume template with my information.
+
+# Live view
+* You can see the last release at https://tommy-lettieri.github.io/resume/ (this is specified under homepage in package.json)
+* You can view latest changes (still being reviewed) at https://tommy-lettieri.github.io/resume-stage
+
+# CI
+* [Releases](.github/workflows/build-release.yaml): This builds a release and uploads it to releases as well as deploys it to github pages
+* [Staging](.github/workflows/stage-release.yaml): This builds a release and deploys it to github pages in a separate repository for review
+* [Linting](.github/workflows/eslint.yaml: Linting on PR
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
