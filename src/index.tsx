@@ -19,6 +19,7 @@ if (REACT_APP_GA_TRACKING_CODE) {
     window.REACT_APP_GA_TRACKING_CODE = REACT_APP_GA_TRACKING_CODE;
     ReactGA.initialize(REACT_APP_GA_TRACKING_CODE);
     ReactGA.pageview(window.location.pathname + window.location.search);
+    ReactGA.set({ resumeVersion: window.RESUME_VERSION });
 }
 
 ReactDOM.render(
