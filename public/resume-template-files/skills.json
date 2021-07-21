@@ -4,16 +4,17 @@
       {
         "name": "Languages",
         "bullets": [
-          "**Extensive Knowledge:** TypeScript and Javascript with both browser and NodeJS, Java, Swift, C#",
-          "**Knowledge:** Python, C++ and Visual Basic"
+          "**Extensive Knowledge:** TypeScript and Javascript with both browser and NodeJS, Java, HTML",
+          "**Strong Knowledge:** Swift, C#, CSS",
+          "**Knowledge:** Python, Objective C, C++, Visual Basic, Lua"
         ],
         "logoURL": "/images/code.png"
       },
       {
         "name": "Databases",
         "bullets": [
-          "**Extensive Knowledge** in SQL (Mostly Postgres but also used Oracle, Microsoft)",
-          "**Knowledge** in NoSQL Databases (Mongo and Realm on mobile devices)"
+          "**Extensive Knowledge:** SQL (Mostly Postgres but also used Oracle, Microsoft)",
+          "**Knowledge:** NoSQL Databases (Mongo and Realm on mobile devices)"
         ],
         "logoURL": "/images/db.png"
       },
@@ -35,10 +36,11 @@
         "logoURL": "/images/mobile.png"
       },
       {
-        "name": "Misc",
+        "name": "Miscellaneous",
         "bullets": [
-            "**Knowledge** of Automated Testing using frameworks like Mocha, Jest, Selenium, Cucumber, Super Test",
-            "Ability to utilize and adapt to new technologies, to learn independently"
+            "**Knowledge:** Automated Testing using frameworks such as Mocha, Jest, Selenium, Cucumber, Super Test",
+            "**Development Preference:** Developing on a linux VM using VSCode remote SSH plugin where possible",
+            "Ability to utilize and adapt to new technologies; to learn independently"
         ],
         "logoURL": "/images/misc.png"
       }
