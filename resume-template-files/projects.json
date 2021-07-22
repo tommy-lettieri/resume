@@ -6,8 +6,8 @@
       "name": "Resume",
       "bullets": [
         "A React application (this website) which is used to showcase skills, employment, education, and projects.",
-        "### Goals\n1. Build a personal website consuming the `resume-template` component library I built",
-        "### Skills Acquired\n1. Automatic `GitHub pages` released on pushing tags.\n2. Component library development experience"
+        "### Goals\n1. Built a personal website consuming the `resume-template` component library I built",
+        "### Skills Acquired\n1. Automatic `GitHub pages` released on pushing tags\n2. Component library development experience"
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume",
@@ -18,7 +18,7 @@
       "bullets": [
         "A React component library for this website. Pushes for reuse by allowing installation over forking.",
         "### Goals\n1. Instead of giving a template to fork I wanted to build a set of components that people could use as they liked.\n2. Furthermore for simplicity I wanted components that would represent the entire website to make it easier to get something up and running.\n3. Automatic resume pdf generation from a subset of the data (in progress)",
-        "### Skills Acquired\n1. Learned how to build a React component library\n2. Learned to use rollup to package up said library (although currently having some issues with a dependency)\n3. Learned how to use storyboard to build and view components in isolation\n4. Furthered my understanding to use React Contexts"
+        "### Skills Acquired\n1. Learned how to build a React component library\n2. Learned to use rollup to package up said library (although currently having some issues with a dependency)\n3. Learned how to use storybook to build and view components in isolation\n4. Furthered my understanding to use React Contexts"
       ],
       "startDate": "7/1/2021",
       "website": "https://github.com/tommy-lettieri/resume",
@@ -39,10 +39,10 @@
       "name": "Mass Texter",
       "bullets": [
         "Android application that texts a group of contacts with a loop.",
-        "### Goals\n1. My phone provider capped the number of people I could text to 10 at one time (regardless of mass or group texts.), however I wanted to text 30 people at a time.\n2. Sending a mass text would go out on a thread with everyone but responses would come back individually so context was sometimes unclear. I wanted the interaction to be more clear.",
-        "### Outcome\n1. People were more responsive (due to the fact that they thought I was texting them personally).",
-        "### Unimplemented ideas\n1. Templating: Having the ability to replace things like `{NAME}` with the contact name.",
-        "### Skills Acquired\n1. Query contacts on android\n2. Send text messages from android"
+        "### Goals\n1. My phone provider capped the number of people I could text to 10 at one time (regardless of mass or group texts.), however I wanted to text 30 people at a time\n2. Sending a mass text would go out on a thread with everyone but responses would come back individually so context was sometimes unclear. I wanted the interaction to be more clear",
+        "### Outcome\n1. People were more responsive (due to the fact that they thought I was texting them personally)",
+        "### Unimplemented Ideas\n1. Templating: Having the ability to replace fields like `{NAME}` with the contact name",
+        "### Skills Acquired\n1. Query contacts on Android\n2. Send text messages from Android"
       ],
       "startDate": "7/1/2017",
       "website": "https://github.com/tommy-lettieri/MassTexter",
@@ -52,7 +52,7 @@
       "name": "Interval Clock",
       "bullets": [
         "Android application to play a sound at a regular interval.",
-        "### Goals\n1. I wanted a timer that would go off consistent at a given interval\n2. This was intended for something like timing exercises (for instance to keep break times short you could give yourself the remainder of an interval and maybe an additional without disrupted and going to you phone and getting distracted.)",
+        "### Goals\n1. I wanted a timer that would go off consistently at a given interval\n2. This application was built to time exercises, but could be used for any purpose that necessitates an alarm to sound at a regular interval. The hands-free alarm ensured that rest periods were concise and did not become distracting like they would be if the phone needed to be picked up to set/dismiss a new timer",
         "### Skills Acquired\n1. Programmatically worked with Android's canvas APIs"
       ],
       "startDate": "7/1/2017",
@@ -63,8 +63,8 @@
       "name": "Stay Awake",
       "bullets": [
         "Android widget to keep Android screen active.",
-        "### Goals\n1. Build a widget to make it easier to turn screen timeout off. This is useful when playing games like Fibbage on Jackbox where there is a wait time while the tv goes through the prompts. This is also useful if you are exercising and keeping an eye on a stopwatch.",
-        "### Skills Acquired\n1. Learned to build a widget for android."
+        "### Goals\n1. Built a widget to make it easier to turn screen timeout off. This is useful when playing games like Fibbage on Jackbox where there is a wait time while the tv goes through the prompts. This is also useful if you are exercising and keeping an eye on a stopwatch",
+        "### Skills Acquired\n1. Learned to build a widget for Android"
       ],
       "startDate": "7/1/2017",
       "website": "https://github.com/tommy-lettieri/StayAwake",
