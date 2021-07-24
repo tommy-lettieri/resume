@@ -1,48 +1,69 @@
 {
-    "logoWidth": 100,
-    "dataArray": [
-      {
-        "name": "Languages",
-        "bullets": [
-          "**Extensive Knowledge:** TypeScript and Javascript with both browser and NodeJS, Java, HTML",
-          "**Strong Knowledge:** Swift, C#, CSS",
-          "**Knowledge:** Python, Objective C, C++, Visual Basic, Lua"
-        ],
-        "logoURL": "/images/code.png"
-      },
-      {
-        "name": "Databases",
-        "bullets": [
-          "**Extensive Knowledge:** SQL (Mostly Postgres but also used Oracle, Microsoft)",
-          "**Knowledge:** NoSQL Databases (Mongo and Realm on mobile devices)"
-        ],
-        "logoURL": "/images/db.png"
-      },
-      {
-        "name": "Frameworks",
-        "bullets": [
-          "**Extensive Knowledge:** Express, Sequelize, React, Joi, AJV (JSON Schema)",
-          "**Strong Knowledge:** Fastify, Prisma"
-        ],
-        "logoURL": "/images/frameworks.png"
-      },
-      {
-        "name": "Mobile Platforms",
-        "bullets": [
-          "Android",
-          "IOS (UIKit)",
-          "Some cross platform knowledge using React Native, Appcelerator, CrankUI"
-        ],
-        "logoURL": "/images/mobile.png"
-      },
-      {
-        "name": "Miscellaneous",
-        "bullets": [
-            "**Knowledge:** Automated Testing using frameworks such as Mocha, Jest, Selenium, Cucumber, Super Test",
-            "**Development Preference:** Developing on a linux VM using VSCode remote SSH plugin where possible",
-            "Ability to utilize and adapt to new technologies; to learn independently"
-        ],
-        "logoURL": "/images/misc.png"
+  "pageWideGraphOverrides": {
+    "saturation": 0.25,
+    "lightness": 0.25,
+    "hue": 200,
+    "inputDataSorterName": "sort",
+    "colorIterationTransformerName": "saturationGradientIterationTransformer"
+  },
+  "graphDataArray": [
+    {
+      "name": "Languages",
+      "data": {
+        "TypeScript": 5,
+        "JavaScript": 5,
+        "Java": 5,
+        "C#": 4,
+        "CSS": 4,
+        "Swift": 4,
+        "Python": 3,
+        "Visual Basic": 2,
+        "Lua": 2,
+        "Objective C": 2,
+        "C++": 2,
+        "C": 1
       }
-    ]
+    },
+    {
+      "name": "Frameworks / Libraries",
+      "data": {
+        "Express": 5,
+        "Sequelize": 4,
+        "React": 5,
+        "JOI": 4,
+        "JSON Schema (AJV)": 5,
+        "Fastify": 3,
+        "Prisma": 3,
+        "Mocha": 4,
+        "Jest": 4,
+        "Selenium": 3,
+        "Cucumber": 3,
+        "Super Test": 3,
+        "GStreamer": 2
+      }
+    },
+    {
+      "name": "Platforms",
+      "data": {
+        "Backend": 5,
+        "Frontend": 4,
+        "Android": 4,
+        "IOS": 4,
+        "React Native": 3,
+        "Appcelerator": 2,
+        "CrankUI": 2
+      }
+    },
+    {
+      "name": "Databases",
+      "data": {
+        "PostgreSQL": 5,
+        "Microsoft SQL Server": 4,
+        "Oracle": 4,
+        "Mongo": 3,
+        "Realm": 2,
+        "RethinkDB": 3
+      }
+    }
+  ]
 }
