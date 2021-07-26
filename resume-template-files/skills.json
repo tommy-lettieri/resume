@@ -1,5 +1,7 @@
 {
   "pageWideGraphOverrides": {
+    "graphHeight": 450,
+    "graphWidth": 500,
     "saturation": 0.25,
     "lightness": 0.25,
     "hue": 200,
