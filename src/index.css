@@ -12,6 +12,19 @@ code {
     monospace;
 }
 
+
+@media only screen and (max-width: 430px) {
+  .zrt-home-content h1 {
+    font-size: 30px;
+  }
+  .zrt-home-content h2 {
+    font-size: 18px;
+  }
+  .zrt-home-content h3 {
+    font-size: 16px;
+  } 
+}
+
 @media only screen and (max-width: 330px) {
   .zrt-home-content h1 {
     font-size: 20px;
@@ -23,6 +36,7 @@ code {
     font-size: 12px;
   } 
 }
+
 /* .zrt-page-home {
   background-image: linear-gradient(to bottom, #333, transparent);
   background-color: transparent ! important;
