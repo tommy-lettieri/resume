@@ -38,6 +38,9 @@ code {
   } 
 }
 
+.zrt-home-content {
+  margin-top: 92px !important;
+}
 @media only screen and (max-width: 630px) {
   .zrt-home-content {
     margin-top: 112px !important;
