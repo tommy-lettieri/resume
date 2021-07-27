@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 330px) {
+  .zrt-home-content h1 {
+    font-size: 20px;
+  }
+  .zrt-home-content h2 {
+    font-size: 14px;
+  }
+  .zrt-home-content h3 {
+    font-size: 12px;
+  } 
+}
+/* .zrt-page-home {
+  background-image: linear-gradient(to bottom, #333, transparent);
+  background-color: transparent ! important;
+} */
+
+.zrt-home-name {
+  font-size: 50px;
+}
+.zrt-website {
+  background-image: linear-gradient(to bottom, #DDD, #333);
+  background-color: transparent ! important;
+  min-height: 100vh;
+}
+
+/**
+https://pixabay.com/photos/clouds-sky-bright-daylight-light-1282314/
+Image uses Pixalbay License: https://pixabay.com/service/license/
+Free for commercial use
+No Attribution required
+**/
+.zrt-page-home {
+  background-image: url(https://cdn.pixabay.com/photo/2016/03/27/07/32/clouds-1282314_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
