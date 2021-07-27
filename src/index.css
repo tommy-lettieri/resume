@@ -31,10 +31,29 @@ code {
   }
   .zrt-home-content h2 {
     font-size: 14px;
+    margin: 0px;
   }
   .zrt-home-content h3 {
     font-size: 12px;
   } 
+}
+
+@media only screen and (max-width: 630px) {
+  .zrt-home-content {
+    margin-top: 112px !important;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .zrt-home-content {
+    margin-top: 152px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .zrt-home-content {
+    margin-top: 212px !important;
+  }
 }
 
 /* .zrt-page-home {
@@ -62,4 +81,6 @@ No Attribution required
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
+  height: auto !important;
+  min-height: 100vh;
 }
