@@ -6,7 +6,7 @@
     "lightness": 0.25,
     "hue": 200,
     "inputDataSorterName": "sort",
-    "colorIterationTransformerName": "saturationGradientIterationTransformer"
+    "colorIterationTransformerName": "colorGradientIterationTransformer"
   },
   "graphDataArray": [
     {
