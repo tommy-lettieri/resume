@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+.zrt-home-name h1 {
+  font-size: 50px;
+}
 
 @media only screen and (max-width: 430px) {
   .zrt-home-content h1 {
@@ -38,39 +41,14 @@ code {
   } 
 }
 
-.zrt-home-content {
-  margin-top: 92px !important;
-}
-@media only screen and (max-width: 630px) {
-  .zrt-home-content {
-    margin-top: 112px !important;
-  }
-}
-
-@media only screen and (max-width: 355px) {
-  .zrt-home-content {
-    margin-top: 152px !important;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .zrt-home-content {
-    margin-top: 212px !important;
-  }
-}
-
 /* .zrt-page-home {
   background-image: linear-gradient(to bottom, #333, transparent);
   background-color: transparent ! important;
 } */
 
-.zrt-home-name {
-  font-size: 50px;
-}
 .zrt-website {
   background-image: linear-gradient(to bottom, #DDD, #333);
   background-color: transparent ! important;
-  min-height: 100vh;
 }
 
 /**
